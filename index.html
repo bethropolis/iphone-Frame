@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+ <head>
+     <title>iphone frame</title>
+     <meta charset="UTF-8">
+     <link rel="stylesheet" href="css/style.css">
+ </head>
+ <body>
+     <div class="center">
+         <div id="mobile">
+             <h5>bethropolis</h5>
+            <div class="screen"></div>
+             <div id="home" ></div>
+             <div class="inner"></div>
+             <ul id="volume">
+                 <li id="slct"></li>
+                 <li id="slct1"></li>
+             </ul>
+             <ul id="silent">
+                 <li id="slct2"></li>
+             </ul>
+             <ul id="sleep">
+                <li id="slct3"></li>
+            </ul>
+        </div>  
+     </div>
+     <div class="btn">
+     <button onMouseOver="document.getElementById('mobile').style.backgroundColor='#000'; document.getElementById('slct').style.backgroundColor='black';document.getElementById('slct1').style.backgroundColor='black';document.getElementById('slct2').style.backgroundColor='black'; document.getElementById('slct3').style.backgroundColor='black'; document.getElementById('home').style.backgroundColor='#101313'">black</button> 
+     <button onMouseOver="document.getElementById('mobile').style.backgroundColor='grey'; document.getElementById('slct').style.backgroundColor='grey';document.getElementById('slct1').style.backgroundColor='grey';document.getElementById('slct2').style.backgroundColor='grey'; document.getElementById('slct3').style.backgroundColor='grey';document.getElementById('home').style.backgroundColor='grey'">grey</button>
+     <button onMouseOver="document.getElementById('mobile').style.backgroundColor='silver'; document.getElementById('slct').style.backgroundColor='silver';document.getElementById('slct1').style.backgroundColor='silver';document.getElementById('slct2').style.backgroundColor='silver'; document.getElementById('slct3').style.backgroundColor='silver'; document.getElementById('home').style.backgroundColor='#f4f6f4'">silver</button> 
+     <button onMouseOver="document.getElementById('mobile').style.backgroundColor='#fff'; document.getElementById('slct').style.backgroundColor='#ccc';document.getElementById('slct1').style.backgroundColor='#ccc';document.getElementById('slct2').style.backgroundColor='#ccc'; document.getElementById('slct3').style.backgroundColor='#ccc'; document.getElementById('home').style.backgroundColor='#fff'">white</button> 
+     <button onMouseOver="document.getElementById('mobile').style.backgroundColor='gold'; document.getElementById('slct').style.backgroundColor='gold';document.getElementById('slct1').style.backgroundColor='gold';document.getElementById('slct2').style.backgroundColor='gold'; document.getElementById('slct3').style.backgroundColor='gold'; document.getElementById('home').style.backgroundColor='gold'">gold</button> 
+     <button onclick="document.onkeydown = checkKeycode
+  
+     function checkKeycode(e)
+     {
+       var keycode;
+       if (window.event)
+         keycode = window.event.keyCode;
+       else if (e)
+         keycode = e.which;
+       prompt('Keycode: ' + keycode);
+     }">close</button>   
+     </div>
+ </body>
+</html>
+
+
